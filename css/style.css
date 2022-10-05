@@ -12,6 +12,7 @@ header{
    position: fixed;
    top: 0;
    left: 0;
+   z-index: 500;
 }
 .head{
     width: 70%;
@@ -37,7 +38,7 @@ header{
 main{
     margin-top: 120px;
     width: 100%;
-    /* height: 1300px; */
+     /* height: 1300px;  */
     background-color: white;
 }
 .container{
@@ -55,19 +56,92 @@ main{
     display: flex;
     justify-content: space-between;
     margin-bottom: -100px;
+    
 
     
 }
-.img{
+.size{
     width: 380px;
-    /* height: 500px;  */
-    
+       height: 500px;      
+}
+ .imag{
+    position: relative;
+} 
+ .img1:hover{
+    content:url(../img/1b.webp);
+} 
+
+ .img2:hover{
+    content: url(../img/2b.webp);
+} 
+
+.img3:hover{
+    content: url(../img/3b.webp);
+}
+
+.img4:hover{
+    content: url(../img/4b.webp);
+}
+
+.img5:hover{
+    content: url(../img/5b.webp);
+}
+
+.img6:hover{
+    content: url(../img/6b.webp);
 }
 .perc{
     height: 20px;
-    width: 40px;
+    width: 50px;
     background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
    
+}
+.img:hover{
+    background-image: url(../img/1b.webp);
+}
+.sost{
+    height: 20px;
+    width: 85px;
+    background-color: green;
+    position: absolute;
+    left: 55px;
+    bottom: 40px;
+    
+    
+}
+
+.sost2{
+    height: 20px;
+    width: 85px;
+    background-color: green;
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+    
+    
+}
+
+.white{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.heart{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    height: 30px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.heart:hover{
+    color:red;
 }
 .prezzo{
    color: red;
